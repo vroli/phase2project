@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 	    plugin = {"pretty","html:target/html-cucumber","json:target/cucumber.json"}, 
 		features="src/test/java/features",
 		glue="stepdefs",
-		tags= {"@WIP or @regression"} 
+		tags= {"@sanity or @regression"} 
 	
 		)
 
